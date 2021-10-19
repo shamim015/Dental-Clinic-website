@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Cavity Protection",
+    "img": "https://i.ibb.co/Yb5PRDV/dentists-treat-patients-teeth-1-1.jpg",
+    "description": "Will help strengthen teeth and leave your mouth feeling fresh."
+  },
+  {
+    "id": 2,
+    "name": "Implant Dentistry",
+    "img": "https://i.ibb.co/GWxfypy/dentist-comparing-patient-s-teeth-shade-with-samples-bleaching-treatment-1.jpg",
+    "description": "Dental implants are the closest you can get to healthy, natural teeth."
+  },
+  {
+    "id": 3,
+    "name": "Cosmetic Dentistry",
+    "img": "https://i.ibb.co/zm4PHpf/smiling-young-man-sitting-dentist-chair-while-doctor-examining-his-teeth-1.jpg",
+    "description": "Cosmetic Dentistry improve the appearance of an individual’s teeth."
+  },
+  {
+    "id": 4,
+    "name": "Parodontosis",
+    "img": "https://i.ibb.co/SxkSFh0/woman-dental-chair-girl-is-examined-by-dentist-beauty-treats-her-teeth-1.jpg",
+    "description": "Timely treated parodontosis disease can save you from tooth loss."
+  },
+  {
+    "id": 5,
+    "name": "Dental Radiogaphy",
+    "img": "https://i.ibb.co/tx8Fkxm/beautiful-girl-sitting-dentist-s-office-1.jpg",
+    "description": "Dental X-rays are a useful tool that help to diagnose and plan treatments."
+  },
+  {
+    "id": 6,
+    "name": "Tooth Restorations",
+    "img": "https://i.ibb.co/Nx0tkHP/woman-patient-dentist-1.jpg",
+    "description": "We can replace missing teeth or repair missing parts of the tooth structure."
+  }
+]
