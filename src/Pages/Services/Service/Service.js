@@ -3,6 +3,7 @@ import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import './Service.css';
 const Service = ({ service }) => {
+    const { handleCart } = service;
 
     const { id, name, img, description } = service;
 
@@ -13,10 +14,9 @@ const Service = ({ service }) => {
                 <div className="card-body">
                     <h3 className="card-text">{name}</h3>
                     <p>{description}</p>
-                    <Link to={`/serviceDetails${id}`}>
+                    <Link to={`/serviceDetails/${id}`}>
                         <Button variant="success">For Details</Button>
                     </Link>
-
                 </div>
             </div>
         </div>

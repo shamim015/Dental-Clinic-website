@@ -13,7 +13,7 @@ import Register from './Pages/Login/Login/Register/Register';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import NotFound from './Pages/NotFound/NotFound';
 import Services from './Pages/Services/Services';
-import ServiceDetails from './Pages/ServicesDetails/ServiceDetails';
+import ServiceDetails from './Pages/ServiceDetails/SeviceDetails/ServiceDetails';
 import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
 
@@ -35,12 +35,6 @@ function App() {
             <Route path="/login">
               <Login></Login>
             </Route>
-
-
-
-            <PrivateRoute path="/serviceDetails/:serviceId">
-              <ServiceDetails></ServiceDetails>
-            </PrivateRoute>
             <Route path="/register">
               <Register></Register>
             </Route>
@@ -53,11 +47,12 @@ function App() {
             <Route path="/faq">
               <Faq></Faq>
             </Route>
-
+            <PrivateRoute path="/serviceDetails/:serviceId">
+              <ServiceDetails></ServiceDetails>
+            </PrivateRoute>
             <Route path="*">
               <NotFound></NotFound>
             </Route>
-
           </Switch>
           <Footer></Footer>
         </Router>
