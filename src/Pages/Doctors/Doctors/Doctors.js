@@ -25,33 +25,34 @@ const doctors = [
     {
         id: 3,
         img: doctor3,
-        name: 'Zakaria Smith',
-        expertize: '-Coloring Expert-'
+        name: 'Brandon Fuller',
+        expertize: 'HYGIENIST'
     },
     {
         id: 4,
         img: doctor4,
-        name: 'Sakib Anderson',
-        expertize: '-Alrounder Expert-'
+        name: 'Elizabeth Welsh',
+        expertize: 'DENTIST'
     },
     {
         id: 5,
         img: doctor5,
-        name: 'Sakib Anderson',
-        expertize: '-Alrounder Expert-'
+        name: 'Shamimur Rahman',
+        expertize: 'CLINICAL DIRECTOR'
     },
     {
         id: 6,
         img: doctor6,
         name: 'Sakib Anderson',
-        expertize: '-Alrounder Expert-'
+        expertize: 'ORTHODONTIST'
+
     },
 ]
 
 
 const Doctors = () => {
     return (
-        <div id="doctors" className='container'>
+        <div id="doctors" className='container mb-5'>
             <h5 className="text-primary mt-5" >OUR STAFF</h5>
             <h1 className="text-primary">Meet the Doctors </h1>
             <div className="row">

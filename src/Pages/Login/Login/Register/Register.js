@@ -8,7 +8,7 @@ const Register = () => {
     return (
         <div className='login-form pb-5 p-5 pt-5'>
             <div>
-                <h2> Create Account</h2>
+                <h1> Create Account</h1>
 
                 <form onSubmit="">
                     <input type="email" name="" id="" placeholder="Your Email" />
@@ -20,6 +20,7 @@ const Register = () => {
                     <Button block size="lg" type="submit" >
                         Login
                     </Button>
+
                 </form>
                 <p>Already have an account?<Link to="./login">Login</Link></p>
 

@@ -16,8 +16,12 @@ const Banner = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <div
+                        style={{}}
+                    >
+                        <h1>The Modern Dentistry You've Been Missing</h1>
+                        <h5>Our doctors are committed to helping you look, feel and smile your best.</h5>
+                    </div>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={500}>
@@ -27,8 +31,8 @@ const Banner = () => {
                     alt="Second slide"
                 />
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h1>We Offer Full-Scale Services You Need!</h1>
+                    <h5>If you are looking for a great place to smile look no futher than Dental Clinic</h5>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -38,8 +42,8 @@ const Banner = () => {
                     alt="Third slide"
                 />
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h1>Complete Oral Health Starts Here & Now!</h1>
+                    <h5>If you have any worries, concerns, or question about visiting a dentist, please give us a call! </h5>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

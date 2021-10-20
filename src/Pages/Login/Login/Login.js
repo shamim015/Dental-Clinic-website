@@ -16,7 +16,7 @@ const Login = () => {
     }
 
     return (
-        <div id='login' className="Login">
+        <div id='login' className="Login mb-5 pb-5 pt-5">
             <h1>Please Login</h1>
             <Form onSubmit={handleSubmit}>
                 <Form.Group size="lg" controlId="email">

@@ -34,7 +34,10 @@ function App() {
             <Route path="/login">
               <Login></Login>
             </Route>
-            <PrivateRoute path="/serviceetails/:serviceId">
+
+
+
+            <PrivateRoute path="/serviceDetails/:serviceId">
               <ServiceDetails></ServiceDetails>
             </PrivateRoute>
             <Route path="/register">
