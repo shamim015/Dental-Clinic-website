@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import AuthProvider from './contexts/AuthProvider';
 import Doctors from './Pages/Doctors/Doctors/Doctors';
+import Faq from './Pages/FAQ/Faq';
 import Banner from './Pages/Home/Banner/Banner';
 import Home from './Pages/Home/Home/Home';
 import Login from './Pages/Login/Login/Login';
@@ -48,6 +49,9 @@ function App() {
             </Route>
             <Route path="/doctors">
               <Doctors></Doctors>
+            </Route>
+            <Route path="/faq">
+              <Faq></Faq>
             </Route>
 
             <Route path="*">

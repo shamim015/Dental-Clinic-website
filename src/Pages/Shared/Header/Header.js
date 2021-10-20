@@ -22,6 +22,7 @@ const Header = () => {
                         <Nav.Link style={{ color: 'white' }} as={HashLink} to="/home#home">Home</Nav.Link>
                         <Nav.Link style={{ color: 'white' }} as={HashLink} to="/services">Services</Nav.Link>
                         <Nav.Link style={{ color: 'white' }} as={HashLink} to="/doctors">Doctors</Nav.Link>
+                        <Nav.Link style={{ color: 'white' }} as={HashLink} to="/faq">FAQ</Nav.Link>
 
                         {user.email && <span style={{ color: 'white' }}>Hello {user.displayName}</span>}
                         {

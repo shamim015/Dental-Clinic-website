@@ -54,7 +54,7 @@ const Doctors = () => {
     return (
         <div id="doctors" className='container mb-5'>
             <h5 className="text-primary mt-5" >OUR STAFF</h5>
-            <h1 className="text-primary">Meet the Doctors </h1>
+            <h1 className="text-primary">Highly Qualified Doctors </h1>
             <div className="row">
                 {
                     doctors.map(doctor => <Doctor
