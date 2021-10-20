@@ -43,7 +43,7 @@ const Login = () => {
                     Login
                 </Button>
             </Form>
-            <p>New to ema-john website?<Link to="/register">
+            <p>New to Dental Clinic website?<Link to="/register">
                 Create Account</Link></p>
             <br /><br />
             <button onClick={signInUsingGoogle} className="btn btn-warning">Google Sign In </button>
